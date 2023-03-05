@@ -17,7 +17,6 @@ function install_brew() {
 }
 
 function setup_nvim() {
-    install_brew
     brew list nvim &> /dev/null || brew install nvim
 
     # Link configuration.
@@ -26,18 +25,15 @@ function setup_nvim() {
 }
 
 function install_iterm2 () {
-    install_brew
     brew list iterm2 &> /dev/null || brew install --cask iterm2
 }
 
 function install_mactex() {
-    install_brew
     brew list mactex-no-gui &> /dev/null || brew install --cask mactex-no-gui
     eval "$(/usr/libexec/path_helper)"
 }
 
 function install_nerdfonts() {
-    install_brew
     brew list font-hack-nerd-font &> /dev/null || brew tap homebrew/cask-fonts;\
         brew install font-hack-nerd-font
 }
@@ -109,6 +105,7 @@ function main() {
     fi
 
     if $other; then
+        install_brew
         install_nerdfonts
         install_haskell
         install_rust
