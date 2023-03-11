@@ -456,6 +456,17 @@
 			</array>
 			<key>Keyboard Map</key>
 			<dict>
+				<key>0x44-0x120000-0x2</key>
+				<dict>
+					<key>Action</key>
+					<integer>28</integer>
+					<key>Label</key>
+					<string></string>
+					<key>Text</key>
+					<string>E97B35C4-FE84-4A22-819F-5946409F779F</string>
+					<key>Version</key>
+					<integer>1</integer>
+				</dict>
 				<key>0x64-0x100000-0x2</key>
 				<dict>
 					<key>Action</key>
@@ -467,18 +478,30 @@
 					<key>Version</key>
 					<integer>1</integer>
 				</dict>
-				<key>0x64-0x40000-0x2</key>
+				<key>0x66-0x100000-0x3</key>
 				<dict>
 					<key>Action</key>
-					<integer>28</integer>
+					<integer>25</integer>
 					<key>Label</key>
 					<string></string>
 					<key>Text</key>
-					<string>E97B35C4-FE84-4A22-819F-5946409F779F</string>
+					<string>Maximize Active Pane
+Maximize Active Pane</string>
 					<key>Version</key>
 					<integer>1</integer>
 				</dict>
-				<key>0x68-0x100000-0x4</key>
+				<key>0x66-0x140000-0x3</key>
+				<dict>
+					<key>Action</key>
+					<integer>23</integer>
+					<key>Label</key>
+					<string></string>
+					<key>Text</key>
+					<string></string>
+					<key>Version</key>
+					<integer>1</integer>
+				</dict>
+				<key>0x68-0x40000-0x4</key>
 				<dict>
 					<key>Action</key>
 					<integer>18</integer>
@@ -489,7 +512,7 @@
 					<key>Version</key>
 					<integer>1</integer>
 				</dict>
-				<key>0x6a-0x100000-0x26</key>
+				<key>0x6a-0x40000-0x26</key>
 				<dict>
 					<key>Action</key>
 					<integer>21</integer>
@@ -500,7 +523,7 @@
 					<key>Version</key>
 					<integer>1</integer>
 				</dict>
-				<key>0x6b-0x100000-0x28</key>
+				<key>0x6b-0x40000-0x28</key>
 				<dict>
 					<key>Action</key>
 					<integer>20</integer>
@@ -511,7 +534,7 @@
 					<key>Version</key>
 					<integer>1</integer>
 				</dict>
-				<key>0x6c-0x100000-0x25</key>
+				<key>0x6c-0x40000-0x25</key>
 				<dict>
 					<key>Action</key>
 					<integer>19</integer>
@@ -664,7 +687,7 @@
 		</dict>
 	</dict>
 	<key>PromptOnQuit</key>
-	<false/>
+	<true/>
 	<key>RightOption</key>
 	<integer>3</integer>
 	<key>ShowFullScreenTabBar</key>
